@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/llheader"
+        android:background="@color/frame_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Employee Master"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:background="@drawable/icons_menu"
+            android:foregroundGravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12sp"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/llheader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:id="@+id/ll"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <EditText
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/employee_uid"
+        android:hint="Employee uid"/>
+    <TextView
+        android:textColor="@color/white"
+        android:background="@color/frame_header"
+        android:id="@+id/btn_find"
+        android:text="Find UID"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAllCaps="false"
+        android:layout_weight="3.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:inputType="text"
+            android:id="@+id/employee_name"
+            android:layout_below="@+id/ll"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Employee Name"/>
+
+
+
+        <ImageView
+            android:background="@drawable/thumb_bg"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="30dp"
+            android:enabled="true"
+            android:layout_below="@+id/employee_name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    <TextView
+        android:textColor="@color/black"
+        android:text="LeftHandFinger"
+        android:layout_marginLeft="45dp"
+        android:layout_below="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/thumb_bg"
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:enabled="true"
+        android:layout_alignTop="@+id/button"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:text="RightHandFinger"
+        android:layout_below="@id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_below="@+id/button"
+        android:text="Status Message"/>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_below="@+id/textMessage" />
+
+
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true">
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:enabled="true"
+        android:textSize="15dp"
+        android:layout_marginRight="5dp"
+        android:onClick="buttonClicked"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Add"/>
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:enabled="true"
+        android:onClick="buttonClicked"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_weight="1"
+        android:background="@color/frame_header"
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:enabled="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:onClick="buttonClicked"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Delete"/>
+</LinearLayout>
+
+</RelativeLayout>

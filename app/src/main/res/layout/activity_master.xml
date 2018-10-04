@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- fifth layout -->
+
+
+
+    <RelativeLayout
+        android:id="@+id/thirdmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/header_logo" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/battvaluetext"
+            android:layout_weight="0.09"
+            android:text="Battery  "
+            android:textColor="@android:color/background_dark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/battvaluetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="80%"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+
+            android:id="@+id/mrelative"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60sp"
+            android:background="@drawable/device_details" />
+
+       <ScrollView
+           android:id="@+id/scrollView"
+           android:layout_below="@+id/mrelative"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/lldepartment"
+            android:layout_below="@+id/mrelative"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/department"
+            android:layout_width="0dp"
+            android:layout_height="60sp"
+            android:background="@color/frame_header"
+            android:text="Department"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/lldesignation"
+            android:layout_below="@+id/lldepartment"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/designation"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/frame_header"
+                android:text="Designation"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/llemployee"
+            android:layout_below="@+id/lldesignation"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/employee"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:background="@color/frame_header"
+            android:text="Employee"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/llemployee_details"
+            android:layout_below="@+id/llemployee"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/empdetails"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:background="@color/frame_header"
+            android:text="Employee Details"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/llmarkattendance"
+            android:layout_below="@+id/llemployee_details"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/attendence"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:background="@color/frame_header"
+            android:text="Mark Attendance"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/llreport"
+            android:layout_below="@+id/llmarkattendance"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/report"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:background="@color/frame_header"
+            android:text="Report"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/llsupport"
+            android:layout_below="@+id/llreport"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/helpview"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:textSize="20dp"
+            android:background="@color/frame_header"
+            android:text="Help/Support"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        </LinearLayout>
+           </LinearLayout>
+       </ScrollView>
+    </RelativeLayout>
+
+</FrameLayout>

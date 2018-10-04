@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etDepartmentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:imeOptions="actionNext"
+        android:hint=" Department Name" />
+
+    <EditText
+        android:id="@+id/etDepartmentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:hint=" Department Email" />
+
+    <EditText
+        android:id="@+id/etDepartmentAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:hint=" Department Address" />
+
+    <Button android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to Add Department"
+        android:clickable="true"
+        android:background="@color/frame_header"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>

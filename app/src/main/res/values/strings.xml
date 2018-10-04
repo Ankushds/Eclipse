@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">R_Featal</string>
+    <string-array name="MFS100Ver">
+        <item>31</item>
+        <item>41</item>
+    </string-array>
+
+    <string name="department_id">ID : %1$s</string>
+    <string name="department_name">Name : %1$s</string>
+    <string name="department_email">Email : %1$s</string>
+    <string name="department_address">Address : %1$s</string>
+    <string name="txt_domain">Please enter domain name</string>
+</resources>

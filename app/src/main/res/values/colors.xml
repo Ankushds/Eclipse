@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark1">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="frame_header">#FF5722</color>
+    <color name="orange">#FF7F00</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#51d8c7</color>
+    <color name="colorPrimaryDark">#51d8c7</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#51d8c7</color>
+
+    <!--Custom design color-->
+
+    <color name="color_b2b2b2">#b2b2b2</color>
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_emerald">#2ecc71</color>
+    <color name="fbutton_color_nephritis">#27ae60</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+    <color name="fbutton_color_amethyst">#9b59b6</color>
+    <color name="fbutton_color_wisteria">#8e44ad</color>
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+    <color name="fbutton_color_midnight_blue">#2ef58b00</color>
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#c221190e</color>
+    <color name="fbutton_color_login">#4A3D2D</color>
+
+    <color name="spinnerbg">#a1a1a1</color>
+    <color name="White">#FFF</color>
+    <color name="Black">#000</color>
+    <color name="Grey">#7F7F7F</color>z
+    <color name="DarkGrey">#4F4F4F</color>
+    <color name="Green">#0F0</color>
+    <color name="TransparentGrey">#56000000</color>
+    <color name="shadow">#4e000000</color>
+    <color name="shadow1">#FF8A65</color>
+    <color name="spin_color">#927a70</color>
+    <color name="gps_bck">#8597c6</color>
+    <color name="gps_on">#13be00</color>
+    <color name="gps_off">#b40012</color>
+
+
+    <!--pressed-->
+
+
+    <color name="orange_my">#e5dd743c</color>
+    <color name="button_color">#5D4D38</color>
+    <color name="trans_white">#00FFFFFF</color>
+    <color name="background">#FFEBEE</color>
+    <color name="background1">#e4f6fa</color>
+    <color name="a">#60BA46</color>
+    <color name="ac">#9A2EFE</color>
+    <color name="b">#FFC663</color>
+    <color name="c">#7EB1B3</color>
+    <color name="d">#976B93</color>
+    <color name="e">#FF7F50</color>
+    <color name="f">#D2B48C</color>
+    <color name="m">#df002c</color>
+    <color name="pink">#f350ff</color>
+    <color name="indigo">#1f1f9f</color>
+    <color name="shadow_color">#cb434342</color>
+
+
+    <color name="background_pressed">#FFFF00</color> <!--yellow-->
+    <color name="background_normal">#808000</color>    <!--olive-->
+    <color name="background_focused">#0000FF</color>    <!--blue-->
+    <color name="bg_color_button">#07b67e</color>    <!--blue-->
+
+</resources>
